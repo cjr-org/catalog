@@ -1,0 +1,18 @@
+openapi: 3.0.1
+info:
+  title: ServiceMesh
+  x-cortex-tag: servicemesh
+  x-cortex-type: service
+  description: East-west traffic management and observability.
+  x-cortex-owners:
+  - name: cjr-org-platform
+    type: GROUP
+    provider: CORTEX
+  x-cortex-groups:
+  - infra:cloud
+  x-cortex-parents:
+  - tag: feature-notifications
+  x-cortex-custom-data:
+    isManaged: false
+servers:
+- url: /

@@ -1,0 +1,24 @@
+openapi: 3.0.1
+info:
+  title: MonitoringUI
+  x-cortex-tag: monitoringui
+  x-cortex-type: frontend
+  description: Infrastructure monitoring and alerting dashboard.
+  x-cortex-owners:
+  - name: cjr-org-frontend
+    type: GROUP
+    provider: CORTEX
+  x-cortex-groups:
+  - infra:monitoring
+  x-cortex-parents:
+  - tag: catalog-frontend
+  x-cortex-custom-data:
+    framework: React
+    applicationType: spa
+    designSystem: Material UI
+    bundler: Vite
+    supportedBrowsers:
+    - Chrome
+    - Firefox
+servers:
+- url: /

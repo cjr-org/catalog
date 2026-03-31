@@ -1,0 +1,24 @@
+openapi: 3.0.1
+info:
+  title: TenantAdmin
+  x-cortex-tag: tenantadmin
+  x-cortex-type: frontend
+  description: Multi-tenant administration and provisioning panel.
+  x-cortex-owners:
+  - name: cjr-org-frontend
+    type: GROUP
+    provider: CORTEX
+  x-cortex-groups:
+  - infra:tooling
+  x-cortex-parents:
+  - tag: catalog-frontend
+  x-cortex-custom-data:
+    framework: React
+    applicationType: spa
+    designSystem: Material UI
+    bundler: Vite
+    supportedBrowsers:
+    - Chrome
+    - Firefox
+servers:
+- url: /

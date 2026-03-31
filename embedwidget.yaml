@@ -1,0 +1,25 @@
+openapi: 3.0.1
+info:
+  title: EmbedWidget
+  x-cortex-tag: embedwidget
+  x-cortex-type: frontend
+  description: Embeddable analytics and reporting widget.
+  x-cortex-owners:
+  - name: cjr-org-frontend
+    type: GROUP
+    provider: CORTEX
+  x-cortex-groups:
+  - infra:tooling
+  x-cortex-parents:
+  - tag: catalog-frontend
+  x-cortex-custom-data:
+    framework: React
+    applicationType: widget
+    designSystem: Internal DS
+    bundler: Vite
+    supportedBrowsers:
+    - Chrome
+    - Firefox
+    - Safari
+servers:
+- url: /

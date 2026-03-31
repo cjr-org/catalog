@@ -1,0 +1,18 @@
+openapi: 3.0.1
+info:
+  title: CDNEdge
+  x-cortex-tag: cdnedge
+  x-cortex-type: service
+  description: CDN edge node management and cache purging.
+  x-cortex-owners:
+  - name: cjr-org-platform
+    type: GROUP
+    provider: CORTEX
+  x-cortex-groups:
+  - infra:cloud
+  x-cortex-parents:
+  - tag: feature-notifications
+  x-cortex-custom-data:
+    isManaged: true
+servers:
+- url: /

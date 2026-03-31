@@ -1,0 +1,24 @@
+openapi: 3.0.1
+info:
+  title: AuditViewer
+  x-cortex-tag: auditviewer
+  x-cortex-type: frontend
+  description: Audit log viewer and export tool.
+  x-cortex-owners:
+  - name: cjr-org-frontend
+    type: GROUP
+    provider: CORTEX
+  x-cortex-groups:
+  - infra:security
+  x-cortex-parents:
+  - tag: catalog-frontend
+  x-cortex-custom-data:
+    framework: React
+    applicationType: spa
+    designSystem: Material UI
+    bundler: Webpack
+    supportedBrowsers:
+    - Chrome
+    - Firefox
+servers:
+- url: /

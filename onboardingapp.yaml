@@ -1,0 +1,25 @@
+openapi: 3.0.1
+info:
+  title: OnboardingApp
+  x-cortex-tag: onboardingapp
+  x-cortex-type: frontend
+  description: Customer onboarding wizard and setup flow.
+  x-cortex-owners:
+  - name: cjr-org-frontend
+    type: GROUP
+    provider: CORTEX
+  x-cortex-groups:
+  - infra:tooling
+  x-cortex-parents:
+  - tag: catalog-frontend
+  x-cortex-custom-data:
+    framework: React
+    applicationType: spa
+    designSystem: Internal DS
+    bundler: Vite
+    supportedBrowsers:
+    - Chrome
+    - Firefox
+    - Safari
+servers:
+- url: /

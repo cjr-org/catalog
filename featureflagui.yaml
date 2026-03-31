@@ -1,0 +1,25 @@
+openapi: 3.0.1
+info:
+  title: FeatureFlagUI
+  x-cortex-tag: featureflagui
+  x-cortex-type: frontend
+  description: Feature flag management and rollout interface.
+  x-cortex-owners:
+  - name: cjr-org-frontend
+    type: GROUP
+    provider: CORTEX
+  x-cortex-groups:
+  - infra:tooling
+  x-cortex-parents:
+  - tag: catalog-frontend
+  x-cortex-custom-data:
+    framework: React
+    applicationType: spa
+    designSystem: Internal DS
+    bundler: Vite
+    supportedBrowsers:
+    - Chrome
+    - Firefox
+    - Safari
+servers:
+- url: /

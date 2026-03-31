@@ -1,0 +1,18 @@
+openapi: 3.0.1
+info:
+  title: InsightMap
+  x-cortex-tag: insightmap
+  x-cortex-type: service
+  description: Business intelligence and analytics dashboard for cloud apps.
+  x-cortex-owners:
+  - name: cjr-org-platform
+    type: GROUP
+    provider: CORTEX
+  x-cortex-groups:
+  - infra:monitoring
+  x-cortex-parents:
+  - tag: feature-reporting
+  x-cortex-custom-data:
+    isManaged: false
+servers:
+- url: /

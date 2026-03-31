@@ -1,0 +1,22 @@
+openapi: 3.0.1
+info:
+  title: TestUtils
+  x-cortex-tag: testutils
+  x-cortex-type: library
+  description: Testing utilities and mock helpers for unit tests.
+  x-cortex-owners:
+  - name: cjr-org-platform
+    type: GROUP
+    provider: CORTEX
+  x-cortex-groups:
+  - infra:tooling
+  x-cortex-parents:
+  - tag: catalog-libraries
+  x-cortex-custom-data:
+    version: 1.5.0
+    language: Python
+    license: MIT
+    packageManager: pip
+    isInternal: true
+servers:
+- url: /

@@ -1,0 +1,22 @@
+openapi: 3.0.1
+info:
+  title: FeatureClient
+  x-cortex-tag: featureclient
+  x-cortex-type: library
+  description: Feature flag client SDK.
+  x-cortex-owners:
+  - name: cjr-org-platform
+    type: GROUP
+    provider: CORTEX
+  x-cortex-groups:
+  - infra:tooling
+  x-cortex-parents:
+  - tag: catalog-libraries
+  x-cortex-custom-data:
+    version: 1.1.2
+    language: Python
+    license: MIT
+    packageManager: pip
+    isInternal: false
+servers:
+- url: /

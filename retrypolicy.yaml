@@ -1,0 +1,22 @@
+openapi: 3.0.1
+info:
+  title: RetryPolicy
+  x-cortex-tag: retrypolicy
+  x-cortex-type: library
+  description: Configurable retry and exponential backoff policies.
+  x-cortex-owners:
+  - name: cjr-org-platform
+    type: GROUP
+    provider: CORTEX
+  x-cortex-groups:
+  - infra:tooling
+  x-cortex-parents:
+  - tag: catalog-libraries
+  x-cortex-custom-data:
+    version: 1.3.0
+    language: Go
+    license: MIT
+    packageManager: go
+    isInternal: true
+servers:
+- url: /

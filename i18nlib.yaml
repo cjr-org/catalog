@@ -1,0 +1,22 @@
+openapi: 3.0.1
+info:
+  title: I18nLib
+  x-cortex-tag: i18nlib
+  x-cortex-type: library
+  description: Internationalization and localization utility library.
+  x-cortex-owners:
+  - name: cjr-org-frontend
+    type: GROUP
+    provider: CORTEX
+  x-cortex-groups:
+  - infra:tooling
+  x-cortex-parents:
+  - tag: catalog-libraries
+  x-cortex-custom-data:
+    version: 1.0.4
+    language: TypeScript
+    license: MIT
+    packageManager: npm
+    isInternal: false
+servers:
+- url: /

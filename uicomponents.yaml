@@ -1,0 +1,22 @@
+openapi: 3.0.1
+info:
+  title: UIComponents
+  x-cortex-tag: uicomponents
+  x-cortex-type: library
+  description: Shared UI component library with accessibility support.
+  x-cortex-owners:
+  - name: cjr-org-frontend
+    type: GROUP
+    provider: CORTEX
+  x-cortex-groups:
+  - infra:tooling
+  x-cortex-parents:
+  - tag: catalog-libraries
+  x-cortex-custom-data:
+    version: 5.2.1
+    language: TypeScript
+    license: MIT
+    packageManager: npm
+    isInternal: true
+servers:
+- url: /

@@ -1,0 +1,25 @@
+openapi: 3.0.1
+info:
+  title: DevPortal
+  x-cortex-tag: devportal
+  x-cortex-type: frontend
+  description: Developer documentation and API reference portal.
+  x-cortex-owners:
+  - name: cjr-org-frontend
+    type: GROUP
+    provider: CORTEX
+  x-cortex-groups:
+  - infra:tooling
+  x-cortex-parents:
+  - tag: catalog-frontend
+  x-cortex-custom-data:
+    framework: Vue
+    applicationType: spa
+    designSystem: Vuetify
+    bundler: Vite
+    supportedBrowsers:
+    - Chrome
+    - Firefox
+    - Safari
+servers:
+- url: /

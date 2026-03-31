@@ -1,0 +1,25 @@
+openapi: 3.0.1
+info:
+  title: WorkflowUI
+  x-cortex-tag: workflowui
+  x-cortex-type: frontend
+  description: Visual workflow builder and process editor.
+  x-cortex-owners:
+  - name: cjr-org-frontend
+    type: GROUP
+    provider: CORTEX
+  x-cortex-groups:
+  - infra:tooling
+  x-cortex-parents:
+  - tag: catalog-frontend
+  x-cortex-custom-data:
+    framework: React
+    applicationType: spa
+    designSystem: Material UI
+    bundler: Webpack
+    supportedBrowsers:
+    - Chrome
+    - Firefox
+    - Safari
+servers:
+- url: /

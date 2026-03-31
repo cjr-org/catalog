@@ -1,0 +1,25 @@
+openapi: 3.0.1
+info:
+  title: AnalyticsDash
+  x-cortex-tag: analyticsdash
+  x-cortex-type: frontend
+  description: Analytics and reporting dashboard for cloud apps.
+  x-cortex-owners:
+  - name: cjr-org-frontend
+    type: GROUP
+    provider: CORTEX
+  x-cortex-groups:
+  - infra:tooling
+  x-cortex-parents:
+  - tag: catalog-frontend
+  x-cortex-custom-data:
+    framework: Vue
+    applicationType: spa
+    designSystem: Vuetify
+    bundler: Vite
+    supportedBrowsers:
+    - Chrome
+    - Firefox
+    - Safari
+servers:
+- url: /

@@ -1,0 +1,22 @@
+openapi: 3.0.1
+info:
+  title: LogKit
+  x-cortex-tag: logkit
+  x-cortex-type: library
+  description: Structured logging utilities with log rotation support.
+  x-cortex-owners:
+  - name: cjr-org-platform
+    type: GROUP
+    provider: CORTEX
+  x-cortex-groups:
+  - infra:monitoring
+  x-cortex-parents:
+  - tag: catalog-libraries
+  x-cortex-custom-data:
+    version: 2.2.0
+    language: Go
+    license: MIT
+    packageManager: go
+    isInternal: true
+servers:
+- url: /

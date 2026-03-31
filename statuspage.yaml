@@ -1,0 +1,26 @@
+openapi: 3.0.1
+info:
+  title: StatusPage
+  x-cortex-tag: statuspage
+  x-cortex-type: frontend
+  description: Public service status and incident page.
+  x-cortex-owners:
+  - name: cjr-org-frontend
+    type: GROUP
+    provider: CORTEX
+  x-cortex-groups:
+  - infra:monitoring
+  x-cortex-parents:
+  - tag: catalog-frontend
+  x-cortex-custom-data:
+    framework: Vue
+    applicationType: spa
+    designSystem: Vuetify
+    bundler: Vite
+    supportedBrowsers:
+    - Chrome
+    - Firefox
+    - Safari
+    - Edge
+servers:
+- url: /

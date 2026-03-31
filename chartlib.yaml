@@ -1,0 +1,22 @@
+openapi: 3.0.1
+info:
+  title: ChartLib
+  x-cortex-tag: chartlib
+  x-cortex-type: library
+  description: Data visualization and charting library.
+  x-cortex-owners:
+  - name: cjr-org-frontend
+    type: GROUP
+    provider: CORTEX
+  x-cortex-groups:
+  - infra:tooling
+  x-cortex-parents:
+  - tag: catalog-libraries
+  x-cortex-custom-data:
+    version: 3.5.0
+    language: TypeScript
+    license: MIT
+    packageManager: npm
+    isInternal: false
+servers:
+- url: /

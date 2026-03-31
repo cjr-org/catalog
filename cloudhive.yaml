@@ -1,0 +1,18 @@
+openapi: 3.0.1
+info:
+  title: Cloudhive
+  x-cortex-tag: cloudhive
+  x-cortex-type: service
+  description: Platform infrastructure management.
+  x-cortex-owners:
+  - name: cjr-org-platform
+    type: GROUP
+    provider: CORTEX
+  x-cortex-groups:
+  - infra:cloud
+  x-cortex-parents:
+  - tag: feature-notifications
+  x-cortex-custom-data:
+    isManaged: true
+servers:
+- url: /

@@ -1,0 +1,18 @@
+openapi: 3.0.1
+info:
+  title: LogPulse
+  x-cortex-tag: logpulse
+  x-cortex-type: service
+  description: Realtime log monitoring and predictive analytics platform.
+  x-cortex-owners:
+  - name: cjr-org-platform
+    type: GROUP
+    provider: CORTEX
+  x-cortex-groups:
+  - infra:monitoring
+  x-cortex-parents:
+  - tag: feature-reporting
+  x-cortex-custom-data:
+    isManaged: true
+servers:
+- url: /

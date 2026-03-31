@@ -1,0 +1,18 @@
+openapi: 3.0.1
+info:
+  title: ConfigWave
+  x-cortex-tag: configwave
+  x-cortex-type: service
+  description: Centralized configuration management service.
+  x-cortex-owners:
+  - name: cjr-org-platform
+    type: GROUP
+    provider: CORTEX
+  x-cortex-groups:
+  - infra:tooling
+  x-cortex-parents:
+  - tag: feature-notifications
+  x-cortex-custom-data:
+    isManaged: true
+servers:
+- url: /

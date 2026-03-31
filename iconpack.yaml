@@ -1,0 +1,22 @@
+openapi: 3.0.1
+info:
+  title: IconPack
+  x-cortex-tag: iconpack
+  x-cortex-type: library
+  description: SVG icon set and React icon components.
+  x-cortex-owners:
+  - name: cjr-org-frontend
+    type: GROUP
+    provider: CORTEX
+  x-cortex-groups:
+  - infra:tooling
+  x-cortex-parents:
+  - tag: catalog-libraries
+  x-cortex-custom-data:
+    version: 2.0.0
+    language: TypeScript
+    license: MIT
+    packageManager: npm
+    isInternal: false
+servers:
+- url: /

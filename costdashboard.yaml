@@ -1,0 +1,25 @@
+openapi: 3.0.1
+info:
+  title: CostDashboard
+  x-cortex-tag: costdashboard
+  x-cortex-type: frontend
+  description: Cloud cost and budget tracking dashboard.
+  x-cortex-owners:
+  - name: cjr-org-frontend
+    type: GROUP
+    provider: CORTEX
+  x-cortex-groups:
+  - infra:monitoring
+  x-cortex-parents:
+  - tag: catalog-frontend
+  x-cortex-custom-data:
+    framework: Vue
+    applicationType: spa
+    designSystem: Vuetify
+    bundler: Vite
+    supportedBrowsers:
+    - Chrome
+    - Firefox
+    - Safari
+servers:
+- url: /

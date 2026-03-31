@@ -1,0 +1,25 @@
+openapi: 3.0.1
+info:
+  title: ReportsUI
+  x-cortex-tag: reportsui
+  x-cortex-type: frontend
+  description: Scheduled and ad-hoc reports viewer.
+  x-cortex-owners:
+  - name: cjr-org-frontend
+    type: GROUP
+    provider: CORTEX
+  x-cortex-groups:
+  - infra:monitoring
+  x-cortex-parents:
+  - tag: catalog-frontend
+  x-cortex-custom-data:
+    framework: React
+    applicationType: spa
+    designSystem: Material UI
+    bundler: Webpack
+    supportedBrowsers:
+    - Chrome
+    - Firefox
+    - Safari
+servers:
+- url: /

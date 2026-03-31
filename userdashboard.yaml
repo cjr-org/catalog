@@ -1,0 +1,26 @@
+openapi: 3.0.1
+info:
+  title: UserDashboard
+  x-cortex-tag: userdashboard
+  x-cortex-type: frontend
+  description: End-user dashboard for account and profile management.
+  x-cortex-owners:
+  - name: cjr-org-frontend
+    type: GROUP
+    provider: CORTEX
+  x-cortex-groups:
+  - infra:tooling
+  x-cortex-parents:
+  - tag: catalog-frontend
+  x-cortex-custom-data:
+    framework: React
+    applicationType: spa
+    designSystem: Internal DS
+    bundler: Vite
+    supportedBrowsers:
+    - Chrome
+    - Firefox
+    - Safari
+    - Edge
+servers:
+- url: /

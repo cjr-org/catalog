@@ -1,0 +1,18 @@
+openapi: 3.0.1
+info:
+  title: DataBridge
+  x-cortex-tag: databridge
+  x-cortex-type: service
+  description: Data synchronization and ETL pipeline service.
+  x-cortex-owners:
+  - name: cjr-org-backend
+    type: GROUP
+    provider: CORTEX
+  x-cortex-groups:
+  - infra:cloud
+  x-cortex-parents:
+  - tag: feature-billing
+  x-cortex-custom-data:
+    isManaged: true
+servers:
+- url: /

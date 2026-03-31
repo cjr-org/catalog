@@ -1,0 +1,18 @@
+openapi: 3.0.1
+info:
+  title: SearchIndex
+  x-cortex-tag: searchindex
+  x-cortex-type: service
+  description: Full-text search indexing and retrieval service.
+  x-cortex-owners:
+  - name: cjr-org-backend
+    type: GROUP
+    provider: CORTEX
+  x-cortex-groups:
+  - infra:cloud
+  x-cortex-parents:
+  - tag: feature-search
+  x-cortex-custom-data:
+    isManaged: true
+servers:
+- url: /
