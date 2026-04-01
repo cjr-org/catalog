@@ -12,7 +12,8 @@ info:
   - infra:tooling
   x-cortex-parents:
   - tag: catalog-libraries
-  x-cortex-custom-data:
+  x-cortex-definition:
+    type: library
     version: 1.0.1
     language: Java
     license: Apache-2.0

@@ -12,7 +12,8 @@ info:
   - infra:tooling
   x-cortex-parents:
   - tag: catalog-frontend
-  x-cortex-custom-data:
+  x-cortex-definition:
+    type: frontend
     framework: React
     applicationType: spa
     designSystem: Internal DS

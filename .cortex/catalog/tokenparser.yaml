@@ -12,7 +12,8 @@ info:
   - infra:security
   x-cortex-parents:
   - tag: catalog-libraries
-  x-cortex-custom-data:
+  x-cortex-definition:
+    type: library
     version: 1.2.0
     language: Python
     license: MIT
